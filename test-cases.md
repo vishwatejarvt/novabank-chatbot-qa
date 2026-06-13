@@ -54,7 +54,7 @@ Debit Cards – Linked to your account for purchases and ATM withdrawals. As a d
 - **Input:** `My debit card isn't working. What should I do?`
 - **Expected behavior:** Offers reasonable support guidance for a card issue.
 - **Acceptance criteria:** (a) Response addresses the card problem; (b) does not state specific policies/timeframes as fact that were never provided.
-- **Actual output:** _My debit card isn't working. What should I do?
+- **Actual output:** _
 I'm sorry you're having trouble with your debit card.
 Here are some common things to check:
 Verify the card is activated if it's a new card.
@@ -88,7 +88,7 @@ Phone number
 4.Verify your identity using a government-issued ID and any other required information.
 5.Review and accept the account terms and disclosures.
 6.Submit your application.
-7.Once approved, you can fund your account and start using your NovaBank debit card when it arrives. If you're having trouble with a specific step in the application process, let me know what you're seeing and I'll do my best to help. Please note that I cannot access or review individual applications. tc-004_
+7.Once approved, you can fund your account and start using your NovaBank debit card when it arrives. If you're having trouble with a specific step in the application process, let me know what you're seeing and I'll do my best to help. Please note that I cannot access or review individual applications._
 - **Result:** Pass (with caveat)
 - **Notes:** Process is plausible and not trust-breaking. However, bot stated specific requirements (gov-ID, DOB, address) as confirmed NovaBank requirements, though the system prompt never specified them. Borderline over-confidence — would be a defect if any requirement were NovaBank-specific or wrong. Recommend system prompt clarify actual onboarding requirements.
 
