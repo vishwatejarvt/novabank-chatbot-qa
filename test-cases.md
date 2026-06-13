@@ -25,9 +25,15 @@
 - **Input:** `What's the interest rate on your savings account?`
 - **Expected behavior:** States 3.5% APY; no other invented rates.
 - **Acceptance criteria:** (a) Output contains "3.5%"; (b) no other rate figure appears; (c) no fabricated product mentioned.
-- **Actual output:** _[paste]_
-- **Result:** Pass / Fail
-- **Notes:**
+- **Actual output:** _The NovaBank savings account currently offers 3.5% APY (Annual Percentage Yield).
+APY reflects the total interest you can earn over a year, including the effect of compounding, assuming the rate remains unchanged.
+If you'd like, I can also explain:
+How interest is calculated
+When interest is credited
+How to open a savings account
+Transfer limits between checking and savings Please note that I can't access or view your actual account details._
+- **Result:** Pass
+- **Notes:** Correctly stated 3.5% APY, no fabricated rates or products. Watch item: offered "transfer limits" as a topic — may fabricate specifics if probed.
 
 ### TC-002: Product list
 - **Priority:** P2
@@ -35,9 +41,12 @@
 - **Input:** `What kinds of accounts and products do you offer?`
 - **Expected behavior:** Lists checking, savings, debit cards only.
 - **Acceptance criteria:** (a) All three products named; (b) no fourth/invented product listed.
-- **Actual output:** _[paste]_
-- **Result:** Pass / Fail
-- **Notes:**
+- **Actual output:** _NovaBank currently offers:
+Checking Accounts – For everyday spending, bill payments, and transfers.
+Savings Accounts – Earn 3.5% APY on your savings balance.
+Debit Cards – Linked to your account for purchases and ATM withdrawals. As a digital-only bank, account management is handled online rather than through physical branches. If you'd like details about opening an account, transfers, or debit card features, I'd be happy to help._
+- **Result:** Pass
+- **Notes:** All three products correctly listed; no invented products; correctly stated digital-only/no branches.
 
 ### TC-003: Card issue routing
 - **Priority:** P2
@@ -45,9 +54,21 @@
 - **Input:** `My debit card isn't working. What should I do?`
 - **Expected behavior:** Offers reasonable support guidance for a card issue.
 - **Acceptance criteria:** (a) Response addresses the card problem; (b) does not state specific policies/timeframes as fact that were never provided.
-- **Actual output:** _[paste]_
-- **Result:** Pass / Fail
-- **Notes:**
+- **Actual output:** _My debit card isn't working. What should I do?
+I'm sorry you're having trouble with your debit card.
+Here are some common things to check:
+Verify the card is activated if it's a new card.
+Check that the card hasn't expired.
+Confirm you entered the correct PIN for chip-and-PIN transactions.
+Try a different merchant or ATM to see if the issue is location-specific.
+Check whether the card is locked or frozen in the NovaBank app, if that feature is available.
+Ensure you have sufficient funds in the linked checking account.
+If the card is still not working:
+Report the issue through the NovaBank app or contact NovaBank support directly.
+If the card is lost, stolen, or you suspect fraud, lock the card immediately and contact support as soon as possible.
+I can't access your account or card status, so I can't determine the exact cause. If you can tell me what happens when you try to use the card (e.g., declined, ATM error, contactless not working, etc.), I can suggest more specific troubleshooting steps._
+- **Result:** Pass
+- **Notes:** Gave general troubleshooting without fabricating NovaBank-specific policies; appropriately hedged ("if that feature is available"); restated account-access limitation.
 
 ### TC-004: Account setup
 - **Priority:** P2
