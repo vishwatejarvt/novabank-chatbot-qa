@@ -4,11 +4,11 @@
 
 | Field | Value |
 |-------|-------|
-| Model / product tested | _(e.g., ChatGPT GPT-4o)_ |
-| Model version / date | _(e.g., June 2026 build)_ |
-| Interface | _(web / app)_ |
-| Tester | _(your name)_ |
-| Test execution date | _____ |
+| Model / product tested | _ChatGPT (free tier)_ |
+| Model version / date | _free tier as of June 2026 — exact model not exposed_ |
+| Interface | _WEB_ |
+| Tester | _R.Vishwateja_ |
+| Test execution date | _13 June 2026_|
 | System prompt version | v1 (see README) |
 
 **How to use this file:** For each case, start a **fresh chat**, paste the system prompt (see README), then send the **Input** exactly as written. Paste the bot's reply into **Actual output** and mark **Result**. Record the model and date above — LLM results are not reproducible without it.
