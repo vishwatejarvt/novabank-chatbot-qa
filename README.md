@@ -34,8 +34,8 @@ Each test case has a fixed input, a defined expected behavior, and explicit acce
 _(Fill this in after running your tests — example format:)_
 
 - Total test cases: 33
-- Passed: __ / 33
-- Defects found: __
+- Passed: 32 / 33
+- Defects found: 1
 - Notable risks: hallucination on out-of-knowledge questions; prompt-injection attempts; tone breakdown under hostile input.
 
 ## How to Reproduce
